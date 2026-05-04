@@ -7,7 +7,7 @@ int main() {
     float price, total;
 
     printf("Enter food item: \n");
-    scanf("%s", &foodItem);
+    scanf("%[^\n]", &foodItem);
 
     printf("Enter quantity: \n");
     scanf("%d", &quantity);
