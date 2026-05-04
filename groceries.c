@@ -6,13 +6,13 @@ int main() {
     int quantity;
     float price, total;
 
-    printf("pLeAsE eNtEr fOOd iTeM: \n");
+    printf("Enter food item: \n");
     scanf("%s", &foodItem);
 
-    printf("pLeAsE eNtEr qUaNtItY: \n");
+    printf("Enter quantity: \n");
     scanf("%d", &quantity);
 
-    printf("pLeAsE eNtEr pRiCe: \n");
+    printf("Enter price: \n");
     scanf("%f", &price);
 
     total = quantity * price;
