@@ -7,6 +7,9 @@
 Grocery.c
 bugs: scanf() not reading white space in char[]
 
+Update:
+bugs in scanf() fixed by using scanf subset.
+
 
 
 
